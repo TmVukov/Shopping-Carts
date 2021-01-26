@@ -1,0 +1,134 @@
+body{
+    display: grid;
+    place-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.project__container{
+    width: 400px;   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.toggle__btn{
+    all: unset; 
+    cursor: pointer;
+    background: white;    
+}
+
+.toggle__btn img{
+    width: 80px;
+    height: 80px;
+}
+
+.cart__container{
+    width: 90%;
+    height: 0;            
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    background: mediumaquamarine;       
+    transition: all .3s linear;   
+    overflow: hidden;       
+}
+
+.open{        
+    height: 540px;
+    padding: 20px;         
+}
+
+.cart__info{    
+    width: 95%;
+    font-size: 12px;
+}
+
+.cart__length{
+    display: inline-block;
+    font-weight: bold;
+ }
+
+.cart__container p{
+   margin-left: 10px;
+   font-size: 12px;
+}
+
+.cart__btn{
+    all: unset;
+    display: grid;
+    place-content: center;
+    width: 90%;
+    height: 20px;   
+    background: white;    
+    text-align: center;
+    padding: 0 10px;    
+    cursor: pointer;  
+}
+
+.cart__btn:hover{
+    background: honeydew;
+}
+
+.cart__btn span{
+    font-size: 26px;
+    color: gray;    
+}
+
+.cart__controls{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.edit{
+    width: 35%;  
+    background:greenyellow; 
+    padding: 5px 20px;  
+    font-size: 12px;    
+}
+
+.checkout{
+    width: 35%;
+    background: green;      
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 20px;      
+    font-size: 12px;
+}
+
+.checkout:hover{
+    background: mediumseagreen;
+}
+
+.cart__items{
+    width: 95%;    
+    overflow: hidden; 
+    /* transition: all 1s linear; */   
+}
+
+.cart__item{
+    display: flex;
+    width: 100%;    
+    background: palegreen;     
+}
+
+.cart__item:nth-child(2){
+    margin: 5px 0;
+}
+
+.cart__item img{
+    width: 120px;
+    height: 120px;    
+}
+
+.item__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+}
+
+.item__description p{    
+    margin: 0 10px;    
+}

@@ -4,48 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">    
+    <link rel="stylesheet" href="styles2.css">    
 </head>
 <body>
 
-    <div class="project__container">
+    <section>
 
-        <button class="toggle__btn">
-            <img src="cart.jpg" alt="toggle button">
-        </button>
+        <div class="project__container">
+            <button class="toggle__btn">
+                <img src="cart.jpg" alt="toggle button">
+            </button>
+    
+            <div class="cart__container">
+    
+               <div class="cart__info">My cart: <p class="cart__length"></p></div>
+    
+                <button class="cart__btn up">▵</button>
+    
+                <div class="cart__items">
+                    <!-- 
+    
+                    <div class="cart__item">
+                        <img src="images/apple.jpg" alt="apple">
+                        <div class="item__description">
+                            <p class="item__title">Item:</p>
+                            <p class="item__amount">Amount: 5</p>
+                            <p class="item__price">Price:</p>
+                        </div>
+                    </div> 
+    
+                     -->
+                </div>
+    
+                <button class="cart__btn down">▿</button>
+    
+                <div class="cart__controls">
+                    <button class="cart__btn edit">Edit Cart</button>
+                    <button class="cart__btn checkout">Checkout</button>
+                </div>
 
-        <div class="cart__container">
-
-           <div class="cart__info">My cart: <p class="cart__length"></p></div>
-
-            <button class="cart__btn up">▵</button>
-
-            <div class="cart__items">
-                <!-- 
-
-                <div class="cart__item">
-                    <img src="images/apple.jpg" alt="apple">
-                    <div class="item__description">
-                        <p class="item__title">Item:</p>
-                        <p class="item__amount">Amount: 5</p>
-                        <p class="item__price">Price:</p>
-                    </div>
-                </div> 
-
-                 -->
             </div>
-
-            <button class="cart__btn down">▿</button>
-
-            <div class="cart__controls">
-                <button class="cart__btn edit">Edit Cart</button>
-                <button class="cart__btn checkout">Checkout</button>
-            </div>
-            
         </div>
 
+        <div class="project__container">       
+            <button class="icon__btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+    
+            <div class="newCart__container">
+    
+               <div class="newCart__info">My cart: <p class="newCart__length"></p></div>
+    
+                <button class="newCart__btn newUp">▵</button>
+    
+                <div class="newCart__items">
+                    <!-- 
+    
+                    <div class="cart__item">
+                        <img src="images/apple.jpg" alt="apple">
+                        <div class="item__description">
+                            <p class="item__title">Item:</p>
+                            <p class="item__amount">Amount: 5</p>
+                            <p class="item__price">Price:</p>
+                        </div>
+                    </div> 
+    
+                     -->
+                </div>
+    
+                <button class="newCart__btn newDown">▿</button>
+    
+                <div class="newCart__controls">
+                    <button class="newCart__btn edit">Edit Cart</button>
+                    <button class="newCart__btn checkout">Checkout</button>
+                </div>
+                
+            </div>
+        </button>        
     </div>
-
+    
+        
+    </section>
+    
+    <script src="https://kit.fontawesome.com/9e81c9b5ea.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="script2.js"></script>
 </body>
 </html>

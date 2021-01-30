@@ -59,6 +59,7 @@ let end = 3
 toggleBtn.addEventListener("click", () => cartContainer.classList.toggle("open"))
 
 
+
 //inject number of items
 totalItems.textContent = `${items.length} items`
 

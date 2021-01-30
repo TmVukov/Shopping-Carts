@@ -1,0 +1,135 @@
+
+.icon__btn{
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.newCart__container{
+    width: 90%;
+    height: 540px;
+    margin-top: 20px;
+    padding: 20px;                 
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    background: white;    
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.37);         
+    /* box-shadow: 0px 14px 10px -5px rgba(0,0,0,0.37); */    
+    transition: all .2s linear;   
+    overflow: hidden;
+    opacity: 0;         
+}
+
+.newCart__container::before{
+    content: ""; 
+    position: absolute; 
+    top: 9.5%;
+    right: 2%;  
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 20px solid white;
+    filter: drop-shadow(0 0 .2px gray);       
+}
+
+.open-new{        
+    opacity: 1;          
+}
+
+.newCart__info{    
+    width: 95%;
+    font-size: 12px;
+}
+
+.newCart__length{
+    display: inline-block;
+    font-weight: bold;
+ }
+
+.newCart__btn{
+    all: unset;
+    display: grid;
+    place-content: center;
+    width: 90%;
+    height: 20px;   
+    background: white;
+    border: 2px solid lightgray;    
+    text-align: center;
+    padding: 0 10px;    
+    cursor: pointer;  
+}
+
+.newCart__btn:hover{
+    background: honeydew;
+}
+
+.newCart__btn span{
+    font-size: 26px;
+    color: gray;    
+}
+
+.newDown{
+    position: relative;
+    top: -2%;
+}
+
+.newCart__controls{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.edit{
+    width: 35%;  
+    border: 1px solid black;
+    padding: 5px 20px;  
+    font-size: 12px;    
+}
+
+.checkout{
+    width: 35%;
+    background: green;
+    border: 1px solid green;      
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 20px;      
+    font-size: 12px;
+}
+
+.checkout:hover{
+    background: lightseagreen;
+}
+
+.newCart__items{
+    width: 95%;
+    height: 421px;    
+    overflow: hidden;      
+}
+
+.newCart__item{
+    display: flex;
+    
+    width: 100%;    
+    background: white;
+    border-bottom: 2px solid lightgray;
+    padding: 8px 0; 
+    transition: all .2s ease-in-out;
+}
+
+.newCart__item img{
+    width: 120px;
+    height: 120px;       
+}
+
+.newItem__description{
+    display: grid;
+    place-content: center;
+    place-items: start;
+    margin-left: 15px;
+}
+
+.newItem__description p{    
+    font-size: 12px;      
+}
+

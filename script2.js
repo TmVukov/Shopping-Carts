@@ -41,7 +41,8 @@ const newItems = [
         title: "pear",
         amount: 7,
         price: "$6.00"
-    }   */  
+    }, */   
+    
 ]
 
 const iconBtn = document.querySelector(".icon__btn")

@@ -29,9 +29,9 @@ body{
 
 .cart__container{
     width: 90%;
-    height: 0;            
-    display: flex;
+    height: 0;   
     position: relative;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center; 
@@ -41,7 +41,7 @@ body{
 }
 
 .open{        
-    height: 540px;
+    height: auto;
     padding: 20px;         
 }
 
@@ -76,9 +76,12 @@ body{
     background: honeydew;
 }
 
-.cart__btn span{
-    font-size: 26px;
-    color: gray;    
+.up{
+    margin-bottom: 10px;
+}
+
+.down{
+    margin: 10px 0;
 }
 
 .cart__controls{

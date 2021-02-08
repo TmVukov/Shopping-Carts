@@ -1,5 +1,5 @@
 ## Toggle-Cart-for-Inchoo
 
-Small project I made for Inchoo Frontend crash course. 
+Small project, experimenting with shopping cart options. 
 
 Link to the project is in the "About" section.
